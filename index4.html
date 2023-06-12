@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Hakkımızda</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.6.0.min.js"></script>
+   
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 16px;
+            color: #000;
+            
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+
+
+        #container {
+            background-image: linear-gradient(rgba(0,0,0,0.50),#009688), url('images/banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            margin: 0px 0px 0px 0px;
+            object-fit: contain;
+          
+        }
+
+        .aboutus-section {
+            padding: 175px 0;
+            object-fit: cover;
+       
+            background-size: contain;
+            height:100%;
+        }
+
+
+        .aboutus-title {
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: 32px;
+            margin: 0 0 39px;
+            padding: 0 0 11px;
+            position: relative;
+            text-transform: uppercase ;
+            color: #000;
+        }
+
+            .aboutus-title::after {
+                background: #FF0000 none repeat scroll 0 0;
+                bottom: 0;
+                content: "";
+                height: 2px;
+                left: 0;
+                position: absolute;
+                width: 54px;
+                color: black
+            }
+
+        .aboutus-text {
+          
+            font-size: 13px;
+            line-height: 22px;
+            margin: 0 0 35px;
+            color: white
+        }
+
+        a:hover, a:active {
+            color:white;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        .aboutus-more {
+            border: 1px solid red;
+            border-radius: 25px;
+            color:#000;
+            
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0;
+            padding: 7px 20px;
+            text-transform: uppercase;
+        }
+
+        .feature .feature-box .iconset {
+            float: left;
+            position: relative;
+            width: 18%;
+            border-radius:25px;
+        }
+
+
+
+            .feature .feature-box .iconset::after {
+                background: #fdb801 none repeat scroll 0 0;
+                height: 150%;
+                left: 43%;
+                position: absolute;
+                top: 100%;
+                width: 1px;
+            }
+
+        .feature .feature-box .feature-content h4 {
+            font-size: 18px;
+            letter-spacing: 0;
+            line-height: 22px;
+            margin: 0 0 5px;
+            color: #000;
+        }
+
+
+        .feature .feature-box .feature-content {
+            float: left;
+            padding-left: 28px;
+            width: 78%;
+        }
+
+            .feature .feature-box .feature-content h4 {
+                width: 150px;
+                text-decoration:  solid;
+                display: contents;
+                margin: 0 10px;
+                padding: 12px 0;
+                color:black;
+                font-weight:500;
+                position: relative;
+                
+            }
+
+            .feature .feature-box .feature-content p {
+                color: white;
+                
+                font-size: 13px;
+                line-height: 22px;
+            }
+
+        .icon {
+            color: red;
+            padding: 0px;
+            font-size: 40px;
+            border: 1px solid red;
+            border-radius: 100px;
+            color: red;
+            font-size: 28px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            width: 70px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        
+
+        .logo {
+            width: 140px;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            border: 5px #009999;
+            border-radius: 150px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #009999;
+            margin-left: 200px;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+
+                li a:hover {
+                    /*background-color: white;*/
+                    color: #000;
+                }
+
+
+
+
+        .container-text {
+            text-align: center;
+            color: #fff;
+            padding-top: 180px;
+        }
+
+            .container-text h1 {
+                font-size: 130px;
+                position: center;
+                font-family: 'Orbitron', sans-serif;
+            }
+
+            .container-text p {
+                font-size: 20px;
+            }
+
+   
+    </style>
+
+
+</head>
+<body>
+    <div id="container">
+
+        <div class="box">
+
+            <p>
+                <a><img class="logo" src="images/logo.PNG" alt="Infinia Kurumsal Logo" /></a>
+
+            </p>
+            <ul>
+                <li><a id="mybtn6" href="#home">Ana Sayfa</a></li>
+                <li><a id="mybtn3" href="#home">Hakkımızda</a></li>
+                <li><a id="mybtn4" href="#news">İletişim</a></li>
+                <li><a id="mybtn5" href="#contact">Blog</a></li>
+            </ul>
+
+
+        </div>
+
+
+        <div class="aboutus-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="aboutus">
+                            <h2 class="aboutus-title">Hakkımızda</h2>
+                            <p class="aboutus-text">Ülkemizin finans ve sermaye piyasalarının gelişimine yakından tanıklık ederek, bu sürece var gücümüzle katkı sağladık. </p>
+                            <p class="aboutus-text">Dijitalleşmenin hızlandığı günümüzde yarıtımlarımız artarak devam etmektedir.</p>
+                            <a class="aboutus-more" href="#">Daha Fazla</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="aboutus-banner">
+                            <img src="http://themeinnovation.com/demo2/html/build-up/img/home1/about1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-xs-12">
+                        <div class="feature">
+                            <div class="feature-box">
+                                <div class="clearfix">
+                                    <div class="iconset">
+                                        <span class="glyphicon glyphicon-cog icon"></span>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4>Kalite Odaklı Süreç Yönetimi</h4>
+                                        <p>Kalite odaklı standartlarla çalışarak risklerini minimize eden kurumlar,hem karlılıklarını arttırır hem de rekabette öne geçer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-box">
+                                <div class="clearfix">
+                                    <div class="iconset">
+                                        <span class="glyphicon glyphicon-cog icon"></span>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4>Dijital Çağda Veri İhtiyacını Karşılamak</h4>
+                                        <p>Etkili veri kalitesi ve sağlanan verilere güven.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-box">
+                                <div class="clearfix">
+                                    <div class="iconset">
+                                        <span class="glyphicon glyphicon-cog icon"></span>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4>Dijitalleşme Çağına Hazırlık</h4>
+                                        <p>Dijital Dönüşümü odağına almış kurumlar gün geçtikçe önem kazanıyor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        //Hakkımızda sayfasına atlama
+        $("#mybtn3").on('click', function () {
+            window.location = "/index4.html";
+        });
+
+        //İletişim sayfasına atlama
+        $("#mybtn4").on('click', function () {
+            window.location = "/index5.html";
+        });
+
+        //Blog sayfasına atlama
+        $("#mybtn5").on('click', function () {
+            window.location = "/index6.html";
+        });
+
+        //Ana Sayfaya Dönme
+        $("#mybtn6").on('click', function () {
+            window.location = "/index1.html";
+        });
+
+
+    </script>
+
+
+
+</body>
+</html>
